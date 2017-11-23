@@ -1,0 +1,1 @@
+geth --datadir $ethereum_home/node1 --unlock 0 --password $ethereum_home/password --port 30301 --networkid 1234 --nodiscover --rpc --rpcapi db,eth,net,web3,personal --cache=1024  --rpcport 8545 --rpcaddr 127.0.0.1 --rpccorsdomain "*" --syncmode=fast --preload "$ethereum_home/mineOnDemand.js" console

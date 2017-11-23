@@ -1,0 +1,45 @@
+=============== Oct 8, 2017 (CEST) ===============
+10:23:52.617616 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:23:52.617771 db@open opening
+10:23:52.618282 version@stat F·[] S·0B[] Sc·[]
+10:23:52.620826 db@janitor F·2 G·0
+10:23:52.620856 db@open done T·3.07387ms
+=============== Oct 8, 2017 (CEST) ===============
+10:23:53.179251 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:23:53.179443 version@stat F·[] S·0B[] Sc·[]
+10:23:53.179454 db@open opening
+10:23:53.179521 journal@recovery F·1
+10:23:53.191814 journal@recovery recovering @1
+10:23:53.194539 memdb@flush created L0@2 N·34 S·2KiB "\nx\xcd..\xb6b\x01,v16":"\xd4b\xcf..\xe7G\xec,v11"
+10:23:53.220091 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+10:23:53.220928 db@janitor F·3 G·0
+10:23:53.221267 db@open done T·41.632616ms
+10:24:01.014313 db@close closing
+10:24:01.014400 db@close done T·84.288µs
+=============== Oct 8, 2017 (CEST) ===============
+10:24:04.261135 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:24:04.261269 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+10:24:04.261277 db@open opening
+10:24:04.261317 journal@recovery F·1
+10:24:04.261975 journal@recovery recovering @3
+10:24:04.264203 memdb@flush created L0@5 N·9 S·453B "Blo..ion,v42":"set..ion,v41"
+10:24:04.264596 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+10:24:04.265097 db@janitor F·4 G·0
+10:24:04.265131 db@open done T·3.839233ms
+=============== Oct 8, 2017 (CEST) ===============
+10:24:10.736368 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:24:10.736520 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+10:24:10.736530 db@open opening
+10:24:10.736595 journal@recovery F·1
+10:24:10.742742 journal@recovery recovering @6
+10:24:10.756097 memdb@flush created L0@8 N·1 S·301B "eth..\x9289,v46":"eth..\x9289,v46"
+10:24:10.773956 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+10:24:10.775248 db@janitor F·5 G·0
+10:24:10.775447 db@open done T·38.891783ms
+10:24:19.500680 table@compaction L0·3 -> L1·0 S·2KiB Q·67
+10:24:19.510365 table@build created L1@11 N·42 S·2KiB "\nx\xcd..\xb6b\x01,v16":"\xd4b\xcf..\xe7G\xec,v11"
+10:24:19.510422 version@stat F·[0 1] S·2KiB[0B 2KiB] Sc·[0.00 0.00]
+10:24:19.515303 table@compaction committed F-2 S+135B Ke·0 D·2 T·14.561577ms
+10:24:19.515385 table@remove removed @8
+10:24:19.515419 table@remove removed @5
+10:24:19.515445 table@remove removed @2

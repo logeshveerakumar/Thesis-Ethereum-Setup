@@ -1,0 +1,28 @@
+cd $ethereum_home/node1
+shopt -s extglob
+rm -rf !(keystore)
+cd $ethereum_home
+
+cd $ethereum_home/node2
+shopt -s extglob
+rm -rf !(keystore)
+cd $ethereum_home
+
+cd $ethereum_home/node3
+shopt -s extglob
+rm -rf !(keystore)
+cd $ethereum_home
+
+cd $ethereum_home/node4
+shopt -s extglob
+rm -rf !(keystore)
+cd $ethereum_home
+
+cd $ethereum_home/node5
+shopt -s extglob
+rm -rf !(keystore)
+cd $ethereum_home
+
+./initMiners
+./runMiners
+./getEnode

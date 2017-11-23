@@ -1,0 +1,22 @@
+#!/bin/bash
+
+node1ID="$(geth --exec "admin.nodeInfo.id" attach ipc:$ethereum_home/node1/geth.ipc | tr -d '"')"
+node2ID="$(geth --exec "admin.nodeInfo.id" attach ipc:$ethereum_home/node2/geth.ipc | tr -d '"')"
+node3ID="$(geth --exec "admin.nodeInfo.id" attach ipc:$ethereum_home/node3/geth.ipc | tr -d '"')"
+node4ID="$(geth --exec "admin.nodeInfo.id" attach ipc:$ethereum_home/node4/geth.ipc | tr -d '"')"
+node5ID="$(geth --exec "admin.nodeInfo.id" attach ipc:$ethereum_home/node5/geth.ipc | tr -d '"')"
+ipaddress="$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1  -d'/')"
+
+>static-nodes.json
+echo "[\"enode://$node1ID@$ipaddress:30301\",
+\"enode://$node2ID@$ipaddress:30302\",
+\"enode://$node3ID@$ipaddress:30303\",
+\"enode://$node4ID@$ipaddress:30304\",
+\"enode://$node5ID@$ipaddress:30305\"
+]">> static-nodes.json
+
+yes | cp -rf static-nodes.json node1/static-nodes.json
+yes | cp -rf static-nodes.json node2/static-nodes.json
+yes | cp -rf static-nodes.json node3/static-nodes.json
+yes | cp -rf static-nodes.json node4/static-nodes.json
+yes | cp -rf static-nodes.json node5/static-nodes.json

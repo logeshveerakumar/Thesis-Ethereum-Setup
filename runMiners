@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#gnome-terminal --tab -e 'bash -c runMiner1;bash' --tab -e 'bash -c runMiner2;bash'
+
+gnome-terminal --tab -e 'bash -c runMiner1;bash' --tab -e 'bash -c runMiner2;bash' --tab -e 'bash -c runMiner3;bash' --tab -e 'bash -c runMiner4;bash' --tab -e 'bash -c runMiner5;bash'
+
+
+
+exit 0

@@ -1,0 +1,43 @@
+1500
+Total Vehicle Crossed So far is 100
+Total Vehicle Verified is 54
+In that, total vehicle verified only by sensor on site is 4
+
+Total Vehicle Crossed So far is 200
+Total Vehicle Verified is 123
+In that, total vehicle verified only by sensor on site is 6
+
+Total Vehicle Crossed So far is 300
+Total Vehicle Verified is 207
+In that, total vehicle verified only by sensor on site is 6
+
+Total Vehicle Crossed So far is 400
+Total Vehicle Verified is 295
+In that, total vehicle verified only by sensor on site is 7
+
+Total Vehicle Crossed So far is 500
+Total Vehicle Verified is 358
+In that, total vehicle verified only by sensor on site is 11
+
+
+2500
+
+Total Vehicle Crossed So far is 100
+Total Vehicle Verified is 74
+In that, total vehicle verified only by sensor on site is 1
+
+Total Vehicle Crossed So far is 200
+Total Vehicle Verified is 168
+In that, total vehicle verified only by sensor on site is 1
+
+Total Vehicle Crossed So far is 300
+Total Vehicle Verified is 268
+In that, total vehicle verified only by sensor on site is 1
+
+Total Vehicle Crossed So far is 400
+Total Vehicle Verified is 368
+In that, total vehicle verified only by sensor on site is 1
+
+Total Vehicle Crossed So far is 500
+Total Vehicle Verified is 468
+In that, total vehicle verified only by sensor on site is 1

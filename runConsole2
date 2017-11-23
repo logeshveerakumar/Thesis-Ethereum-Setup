@@ -1,0 +1,1 @@
+ geth attach ipc:$ethereum_home/node2/geth.ipc
